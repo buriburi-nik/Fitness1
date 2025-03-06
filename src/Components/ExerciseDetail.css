@@ -1,0 +1,173 @@
+/* Loading and error handling */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.error-message {
+  text-align: center;
+  color: red;
+  padding: 2rem;
+}
+
+/* Exercise Details Container */
+.exercise-detail-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+/* Grid Layout */
+.exercise-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  /* Ensures items are vertically aligned */
+}
+
+
+
+
+/* Exercise Image */
+.exercise-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exercise-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* Exercise Information */
+.exercise-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.exercise-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.exercise-card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Exercise Details */
+.exercise-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.exercise-details h2 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.exercise-details p {
+  color: #555;
+}
+
+/* Exercise Tips */
+.exercise-tips {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.exercise-tips h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.exercise-tips ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.exercise-tips li {
+  margin: 0.5rem 0;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background-color: #d6d6d6;
+}
+
+/* @media (max-width: 768px) {
+  .exercise-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  .exercise-title{
+    display: none;
+  }
+} */
+
+@media (max-width: 768px) {
+  .exercise-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .exercise-details {
+    grid-template-columns: 1fr;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  .exercise-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+}

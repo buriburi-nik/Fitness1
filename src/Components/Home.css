@@ -64,6 +64,7 @@ h3 {
 /* Buttons */
 .btn {
   display: inline-block;
+  /* border: #facc15 2px solid;/ */
   font-weight: 700;
   padding: 0.75rem 2rem;
   border-radius: 0.5rem;
@@ -74,19 +75,29 @@ h3 {
 .btn-primary {
   background-color: #3b82f6;
   color: white;
+  border: solid 2px #fff;
+  border-radius: 0.5rem;
+  padding: 0.75rem 2rem;
 }
 
 .btn-primary:hover {
-  background-color: #2563eb;
+  background-color: #f3f4f8;
+  color: #141313;
 }
 
 .btn-secondary {
   background-color: white;
   color: #1f2937;
+  border: solid 2px #fff;
+    border-radius: 0.5rem;
+    padding: 0.75rem 2rem;
 }
 
 .btn-secondary:hover {
-  background-color: #f3f4f6;
+  /* background-color: #4690d9; */
+    background-color: #3b82f6;
+    border: none;
+  color: #f5f6f8;
 }
 
 .btn-outline {
@@ -101,12 +112,14 @@ h3 {
 }
 
 .btn-cta {
-  background-color: white;
-  color: #3b82f6;
+  /* background-color: white; */
+  color: #fafbfb;
+
+  margin-bottom: 2rem;
 }
 
 .btn-cta:hover {
-  background-color: #f3f4f6;
+  color: #cc924b;
 }
 
 .btn-workout {
@@ -241,10 +254,12 @@ h3 {
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
+
+
 .workout-image {
-  height: 12rem;
   width: 100%;
-  object-fit: cover;
+  height: 200px;
+  object-fit: stretch;
 }
 
 .workout-content {

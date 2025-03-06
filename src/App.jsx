@@ -1,13 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-// Import your components here
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
-import Exercises from './Components/Exercises';
-import ExerciseDetail from './Components/ExerciesDetail'; // Make sure the file is renamed accordingly
+import Exercises from './Components/Exercises'
+import ExerciseDetail from './Components/ExerciesDetail'; 
+//import Workout from './Components/WorkoutComponent'
 import FitnessDashboard from './Components/FitnessDashboard';
 import Footer from './Components/Footer';
+import WorkoutComponent from './Components/WorkoutComponent'; // Import the new component
+
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           
           {/* Exercises Page */}
           <Route path="/exercises" element={<Exercises />} />
+
+              <Route path="/workouts/:category?" element={<WorkoutComponent />} />
           
           {/* Exercise Detail Page (dynamic route) */}
           <Route path="/exercises/:id" element={<ExerciseDetail />} />

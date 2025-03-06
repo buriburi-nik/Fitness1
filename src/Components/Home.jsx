@@ -6,16 +6,16 @@ import './Home.css';
 const Home = () => {
   // Featured workouts data
   const featuredWorkouts = [
-    { id: 1, name: 'Full Body Blast', duration: '45 min', difficulty: 'Intermediate', image: '/api/placeholder/300/200' },
-    { id: 2, name: 'Core Crusher', duration: '30 min', difficulty: 'Beginner', image: '/api/placeholder/300/200' },
-    { id: 3, name: 'HIIT Cardio', duration: '25 min', difficulty: 'Advanced', image: '/api/placeholder/300/200' }
+    { id: 1, name: 'Full Body Blast', duration: '45 min', difficulty: 'Intermediate', image: 'https://imgs.search.brave.com/8AMhMBmbT1cMeOpzGnbcYPthhNy2ySQVY-DF28K0rsk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvc3BvcnRzLWJh/Y2tncm91bmQtMWx1/cTR1cHJoaGVzb3Q5/My5qcGc' },
+    { id: 2, name: 'Core Crusher', duration: '30 min', difficulty: 'Beginner', image: 'https://imgs.search.brave.com/_WbFgDJKq4EQeEtXQScjpf_C28-CoprgHyPzzk5tk4A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvMTg5/NzEyNy5qcGc' },
+    { id: 3, name: 'HIIT Cardio', duration: '25 min', difficulty: 'Advanced', image: 'https://imgs.search.brave.com/Wy21IkcOsvwDjYRR_OYbzCGCprVL07gYFZ146CbCLWY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvZ3ltLW9nNmg0/a2c2Y2l3dnJqNWku/anBn' }
   ];
 
   // Testimonials data
   const testimonials = [
-    { id: 1, name: 'Sarah J.', quote: 'This app transformed my fitness journey! The exercise library is amazing.', image: '/api/placeholder/60/60' },
-    { id: 2, name: 'Mark T.', quote: 'I love tracking my progress and seeing how far I\'ve come.', image: '/api/placeholder/60/60' },
-    { id: 3, name: 'Lisa R.', quote: 'The workout plans are exactly what I needed to stay motivated.', image: '/api/placeholder/60/60' }
+    { id: 1, name: 'Sarah J.', quote: 'This app transformed my fitness journey! The exercise library is amazing.', image: 'https://imgs.search.brave.com/MZZiZDzrKUkN3ovt-khxadiH6fvSBPpTjUdmziq9RqI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mbHV4/LWltYWdlLmNvbS9f/bmV4dC9pbWFnZT91/cmw9aHR0cHM6Ly9h/aS5mbHV4LWltYWdl/LmNvbS9mbHV4LzVm/ZDE1Mzk4LTAyMDct/NGI0OC04OWRiLWZj/MDBiZTIyNmI2Yy5q/cGcmdz0zODQwJnE9/NzU' },
+    { id: 2, name: 'Mark T.', quote: 'I love tracking my progress and seeing how far I\'ve come.', image: 'https://imgs.search.brave.com/ASbn-2VgJR96FpRn_4Dw3-tVsJF2WGg5Jz7nhAmh1Ww/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWdj/ZG4uc3RhYmxlZGlm/ZnVzaW9ud2ViLmNv/bS8yMDI1LzEvMjcv/NDZlZGEwN2UtNTZk/NC00OTI5LWIwNzUt/NjkwMmI0MDcxOWY2/LmpwZw' },
+    { id: 3, name: 'Lisa R.', quote: 'The workout plans are exactly what I needed to stay motivated.', image: 'https://imgs.search.brave.com/nPFRe8QEK1OgkfFBIUT2m50_m7Dd8CDK-lYtARiSJAw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9n/aXJsLXdpdGgtY3Jv/c3NlZC1hcm1zLWd5/bV8xMTUzLTk0OC5q/cGc_c2VtdD1haXNf/aHlicmlk' }
   ];
 
   return (
